@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-    height: 100px;
+    height: 100%;
     /* background-color:black; */
 
 }
@@ -36,6 +36,22 @@ p {
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #C8191C;
 }
 
 .btn-theme {
@@ -49,7 +65,7 @@ p {
     color: #FFFFFF;
     padding-top: 1.5rem;
     text-align: center;
-  
+
 }
 
 header {
@@ -57,15 +73,17 @@ header {
     width: 100%;
     z-index: 9;
     top: 0;
+    /* padding: 1rem; */
+    /* background-color: rgb(54, 9, 9); */
+
 }
 
 header .container {
-    height: 10rem;
-    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 header nav ul {
@@ -95,7 +113,7 @@ header nav ul li a {
     content: '';
     position: absolute;
     background: url(../images/hero-banner.png);
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     inset: 0;
     opacity: 0.1;
@@ -104,7 +122,7 @@ header nav ul li a {
 }
 
 .hero-data {
-    padding-top: 37.7rem;
+    padding-top: 37rem;
     text-align: center;
     z-index: 999;
     position: relative;
@@ -114,7 +132,7 @@ header nav ul li a {
 
 .hero-data h1 {
     font-weight: 700;
-    font-size: 12.9rem;
+    font-size: 13rem;
     line-height: 16rem;
     text-align: center;
     color: #FFFFFF;
@@ -134,13 +152,45 @@ header nav ul li a {
 /**********************************/
 
 
+
+/*************discover section********/
+#discover {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding-top: 20rem;
+
+    padding-bottom: 20rem;
+
+}
+
+#discover .discover-symbol>* {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#discover .discover-symbol h3 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 2rem;
+}
+
+
+
+/**********************************/
+
+/***********discover-data**********/
+#discover-data{
+    
+}
+/**********************************/
+
 @media screen and (min-width:1650px) {
     .container {
         max-width: 150rem;
-    }
-    .hero-data h1{
-        font-size: 11rem;
-        line-height: 14rem;
     }
 }
 
