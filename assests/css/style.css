@@ -183,10 +183,75 @@ header nav ul li a {
 /**********************************/
 
 /***********discover-data**********/
-#discover-data{
-    
+.about {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    position: relative;
+    /* background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%); */
 }
+
+.about .border-end {
+    padding-right: 11.5rem;
+}
+
+.about p {
+    margin-top: 10rem;
+    max-width: 54.1rem;
+}
+
+.about .btn-theme {
+    margin-top: 10.5rem;
+}
+
 /**********************************/
+
+/***********super section*********/
+#super {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+.imagine-data{
+    padding-top: 4.5rem;
+}
+
+#super h4 {
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    color: #FFFFFF;
+}
+#super p {
+    padding-top: 11.5rem;
+    width: 48.5rem;
+}
+.super-image{
+    padding-left: 8.8rem;
+}
+.superimg{
+    width: 100%;
+}
+.super-data h4 {
+    padding-top: 10.4rem;
+    padding-left: 2.9rem;
+}
+
+
+
+
+/**********************************/
+/************services section*********/
+#services{
+    padding-top: 20rem;
+    padding-bottom:20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+#services h2, h6{
+    text-align: center;
+}
+
+/**********************************/
+
 
 @media screen and (min-width:1650px) {
     .container {
