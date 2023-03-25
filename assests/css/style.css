@@ -211,7 +211,8 @@ header nav ul li a {
     padding-bottom: 20rem;
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
 }
-.imagine-data{
+
+.imagine-data {
     padding-top: 4.5rem;
 }
 
@@ -221,16 +222,20 @@ header nav ul li a {
     line-height: 191px;
     color: #FFFFFF;
 }
+
 #super p {
     padding-top: 11.5rem;
     width: 48.5rem;
 }
-.super-image{
+
+.super-image {
     padding-left: 8.8rem;
 }
-.superimg{
+
+.superimg {
     width: 100%;
 }
+
 .super-data h4 {
     padding-top: 10.4rem;
     padding-left: 2.9rem;
@@ -241,18 +246,146 @@ header nav ul li a {
 
 /**********************************/
 /************services section*********/
-#services{
+#services {
     padding-top: 20rem;
-    padding-bottom:20rem;
+    padding-bottom: 20rem;
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
 }
-#services h2, h6{
+
+
+#services h2,
+h6 {
     text-align: center;
 }
 
+#services h2 {
+    min-width: 14.33rem;
+}
+
+.service-box {
+    border: 2px solid white;
+    padding: 5rem 6rem;
+}
+
+.service-box img {
+    width: 100%;
+}
+
+.service-box h5 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 5rem;
+}
+
+.service-box p {
+    padding-top: 2rem;
+}
+
+#services .row>*:nth-child(odd) {
+    padding: 7.5rem 7.5rem 15rem 4.2rem;
+}
+
+#services .row>*:nth-child(even) {
+    padding: 7.5rem 7.5rem 15rem 4.2rem;
+}
+
+
+
+
+
+
+
 /**********************************/
 
+/*************why******************/
+#why {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
 
+#why .why-symbol {
+    padding-top: 13.2rem;
+}
+
+#why p {
+    width: 39.5rem;
+    padding-top: 3rem;
+}
+
+#why h2 {
+    text-align: center;
+}
+
+#why h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 3rem;
+}
+
+#why .why-symbol>* {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+
+/**********************************/
+
+/**********science section***********/
+#science {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#science h6,
+h2 {
+    text-align: center;
+    align-items: center;
+}
+
+#science h2 {
+    max-width: 105.4rem;
+    margin: 0 auto;
+}
+#science .science-data{
+    padding: 2.4rem 0 2.4rem 6rem;
+    /* max-width: 15.6rem; */
+}
+#science .science-data h5 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+#science .row>*{
+    display: flex;
+}
+#science .row>*:nth-child(2){
+    /* padding-left: 8.1rem ;
+    padding-right: 8.1rem ; */
+}
+.justify-content-start {
+    justify-content: flex-start!important;
+    column-gap: 81px;
+    padding-top: 10rem;
+}
+.justify-content-end {
+    justify-content: flex-end!important;
+    column-gap: 81px;
+    padding-top: 10rem;
+}
+
+/**********************************/
 @media screen and (min-width:1650px) {
     .container {
         max-width: 150rem;
