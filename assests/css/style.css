@@ -355,10 +355,12 @@ h2 {
     max-width: 105.4rem;
     margin: 0 auto;
 }
-#science .science-data{
-    padding: 2.4rem 0 2.4rem 6rem;
+
+#science .science-data {
+    padding-left: 6rem;
     /* max-width: 15.6rem; */
 }
+
 #science .science-data h5 {
     font-weight: 700;
     font-size: 54px;
@@ -367,22 +369,223 @@ h2 {
     color: #FFFFFF;
 
 }
-#science .row>*{
+
+#science .row>* {
     display: flex;
 }
-#science .row>*:nth-child(2){
-    /* padding-left: 8.1rem ;
-    padding-right: 8.1rem ; */
+
+#science .row>*:nth-child(2) {
+    padding-left: 8.1rem;
+    padding-right: 8.1rem;
 }
+
 .justify-content-start {
-    justify-content: flex-start!important;
+    justify-content: flex-start !important;
     column-gap: 81px;
     padding-top: 10rem;
 }
+
 .justify-content-end {
-    justify-content: flex-end!important;
+    justify-content: flex-end !important;
     column-gap: 81px;
     padding-top: 10rem;
+}
+
+#science .btn {
+    padding-top: 10rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#science .btn-theme {
+    color: white;
+
+}
+
+.number h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+.number {
+    padding-top: 20rem;
+}
+
+.number p {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 136px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.number .row>* {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/**********************************/
+/**********form section***********/
+#form {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+
+}
+
+#form h6 {
+    text-align: left;
+    /* padding-right: 20px; */
+}
+
+#form h2 {
+    max-width: 45.2rem;
+    text-align: left;
+}
+
+#form h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 3rem;
+}
+
+.space {
+    padding-bottom: 8rem;
+}
+
+#form ::placeholder {
+    color: #FFFFFF;
+}
+
+#form input {
+    padding-top: 3rem;
+    /* align-items: center; */
+    padding: 2rem 0 2rem 3rem;
+    width: 43.5rem;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+    border: 2px solid white;
+}
+
+#form select {
+    padding: 2rem 0 2rem 3rem;
+    width: 43.5rem;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+    border: 2px solid white;
+
+}
+
+#service_data {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.form_data {
+    align-items: center;
+}
+
+/**********************************/
+/***********memebrship section***********/
+#membership {
+    background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
+    position: relative;
+
+
+}
+
+#membership::before {
+    content: '';
+    position: absolute;
+    background: url(../images/member.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    inset: 0;
+    background-position: center center;
+
+
+}
+
+.member_data h2 {
+    padding-top: 10.5rem;
+
+}
+
+#membership .btn {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10.9rem;
+}
+
+#membership p {
+    max-width: 98.9rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+/**********************************/
+/**********member_price************/
+#member_price {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+
+}
+
+#member_price .box {
+    border: 2px solid white;
+}
+
+.box h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.box p {
+    font-weight: 700;
+font-size: 72px;
+line-height: 98px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+/* 4 */
+
+color: #FFFFFF;
+}
+.box span{
+    font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+text-transform: uppercase;
+
+/* 4 */
+
+color: #FFFFFF;
 }
 
 /**********************************/
