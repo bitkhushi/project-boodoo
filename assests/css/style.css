@@ -113,7 +113,7 @@ header nav ul li a {
     content: '';
     position: absolute;
     background: url(../images/hero-banner.png);
-    background-size: 100% 100%;
+    background-size: 100% 100vh;
     background-repeat: no-repeat;
     inset: 0;
     opacity: 0.1;
@@ -158,7 +158,7 @@ header nav ul li a {
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
     padding-top: 20rem;
 
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
 
 }
 
@@ -183,15 +183,15 @@ header nav ul li a {
 /**********************************/
 
 /***********discover-data**********/
-.about {
+#discover  .about {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     position: relative;
     /* background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%); */
 }
 
 .about .border-end {
-    padding-right: 11.5rem;
+    padding-right: 13.5rem;
 }
 
 .about p {
@@ -202,13 +202,17 @@ header nav ul li a {
 .about .btn-theme {
     margin-top: 10.5rem;
 }
+#discover h6{
+    right: 0;
+    text-align: start;
+}
 
 /**********************************/
 
 /***********super section*********/
 #super {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
 }
 
@@ -248,7 +252,7 @@ header nav ul li a {
 /************services section*********/
 #services {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
 }
 
@@ -285,11 +289,11 @@ h6 {
 }
 
 #services .row>*:nth-child(odd) {
-    padding: 7.5rem 7.5rem 15rem 4.2rem;
+    padding: 7.5rem 7.5rem 7.5rem 4.2rem;
 }
 
 #services .row>*:nth-child(even) {
-    padding: 7.5rem 7.5rem 15rem 4.2rem;
+    padding: 7.5rem 4.2rem 7.5rem 7.5rem;
 }
 
 
@@ -303,7 +307,7 @@ h6 {
 /*************why******************/
 #why {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
 }
 
@@ -314,6 +318,7 @@ h6 {
 #why p {
     width: 39.5rem;
     padding-top: 3rem;
+    text-align: center;
 }
 
 #why h2 {
@@ -341,19 +346,20 @@ h6 {
 /**********science section***********/
 #science {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
 }
 
-#science h6,
+/* #science h6,
 h2 {
     text-align: center;
     align-items: center;
-}
+} */
 
 #science h2 {
     max-width: 105.4rem;
     margin: 0 auto;
+    text-align: center;
 }
 
 #science .science-data {
@@ -379,13 +385,13 @@ h2 {
     padding-right: 8.1rem;
 }
 
-.justify-content-start {
+.desc {
     justify-content: flex-start !important;
     column-gap: 81px;
     padding-top: 10rem;
 }
 
-.justify-content-end {
+.description {
     justify-content: flex-end !important;
     column-gap: 81px;
     padding-top: 10rem;
@@ -438,7 +444,7 @@ h2 {
 /**********form section***********/
 #form {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
 
 }
@@ -473,7 +479,7 @@ h2 {
 #form input {
     padding-top: 3rem;
     /* align-items: center; */
-    padding: 2rem 0 2rem 3rem;
+    padding:3rem;
     width: 43.5rem;
     font-weight: 400;
     font-size: 2.4rem;
@@ -484,7 +490,7 @@ h2 {
 }
 
 #form select {
-    padding: 2rem 0 2rem 3rem;
+    padding: 3rem;
     width: 43.5rem;
     font-weight: 400;
     font-size: 2.4rem;
@@ -502,7 +508,9 @@ h2 {
 .form_data {
     align-items: center;
 }
-
+.form_btn{
+    padding-bottom: 19.6rem;
+}
 /**********************************/
 /***********memebrship section***********/
 #membership {
@@ -526,7 +534,7 @@ h2 {
 
 .member_data h2 {
     padding-top: 10.5rem;
-
+    text-align: center;
 }
 
 #membership .btn {
@@ -547,16 +555,18 @@ h2 {
 /**********member_price************/
 #member_price {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
 
 }
-
+#member_price h2{
+    text-align: center;
+}
 .box {
     margin: 3rem;
 }
 
-.row {
+#member_price .row {
     padding-top: 8rem;
 }
 
@@ -593,24 +603,23 @@ h2 {
 
 }
 
-/* .box_data img {
-    display: flex;
-} */
 .box_data ul li {
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.box_data ul li p{
+
+.box_data ul li p {
     align-items: center;
     margin-bottom: 0;
     text-align: center;
     display: flex;
-    padding: 2rem;
+    padding:0 2rem;
 }
-.box_data ul{
+
+.box_data ul {
     padding-left: 0;
-   
+
 }
 
 .box_btn {
@@ -618,19 +627,26 @@ h2 {
     display: flex;
     justify-content: center;
 }
-
+.box:hover {
+    background-color: #C8191C;
+    transition: all 0.5s;
+}
+.box:hover .btn-theme {
+    background-color: #FFF;
+    color: #C8191C;
+}
 
 /*********client section***********/
 #client {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
 
 }
 
-#client img {
+/* #client img {
     margin: 0 auto;
-}
+} */
 
 #client h2 {
     max-width: 140rem;
@@ -642,12 +658,15 @@ h2 {
     margin: 0 auto;
 }
 
-
-
-
-.swiper-wrapper {
-    margin: 2rem 5rem;
+#client .container>img {
+    padding-bottom: 10rem;
+    margin: 0 auto;
 }
+
+
+/* .swiper-wrapper {
+    margin: 2rem 5rem;
+} */
 
 .swiper-wrapper .client-desc {
     padding-left: 3rem;
@@ -657,21 +676,15 @@ h2 {
 }
 
 .client-desc .client-img {
-    /* Width: 47.6rem; */
-    /* Height: 51.2rem; */
-    margin-bottom: 10rem;
-
+    padding-bottom: 10rem;
 }
 
-.client-desc .client-img img {
-    /* Width: 100%; */
-    /* Height: 100%; */
 
-}
 
 .client-desc .client-data {
     position: relative;
 }
+
 .client-data::before {
     content: '';
     background: url(../images/quote.png);
@@ -733,7 +746,7 @@ h2 {
 /**********blog section***********/
 #blog {
     padding-top: 20rem;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
 
 }
@@ -741,7 +754,7 @@ h2 {
 .blog_data {
     padding-right: 5rem;
     padding-left: 5rem;
-} 
+}
 
 #blog h3 {
     font-weight: 700;
@@ -750,6 +763,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-bottom: 8rem;
 }
 
 .blog_desc h4 {
@@ -770,7 +784,8 @@ h2 {
 .blog_desc span {
     color: blue;
 }
-.blog_img img{
+
+.blog_img img {
     width: 100%;
 
 }
@@ -782,10 +797,12 @@ h2 {
     padding-bottom: 20rem;
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
 }
-#footer .container{
+
+/* #footer .container {
     display: flex;
     justify-content: space-between;
-}
+} */
+
 .footer_data h3 {
     font-weight: 700;
     font-size: 24px;
@@ -798,7 +815,7 @@ h2 {
     display: flex;
 }
 
-#footer p {
+.footer_desc_boobo p {
     max-width: 27.5rem;
     padding-top: 2rem;
 }
@@ -810,26 +827,71 @@ h2 {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .footer_contact ul li a {
     display: flex;
     color: #FFF;
+
     /* padding: 2rem; */
 }
-.footer_contact ul li  {
-    
+
+.footer_contact ul li {
+
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
     padding: 2rem 0 2rem 0;
 }
-.footer_contact ul{
+
+.footer_contact ul {
     padding-left: 0;
 }
-.footer_contact img {
+
+.footer_contact i {
     /* padding: 2rem; */
     padding-right: 2rem;
+    color: #FFF;
 }
+
 .footer_maps img {
     padding-top: 2rem;
 }
 
+.footer_descservice a {
+    display: block;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 2rem;
+}
+
+.footer_link a {
+    display: block;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 2rem;
+}
+
+.bottom p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 4.5rem;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+#footer .border-top{
+    padding-top: 8rem;
+}
 /**********************************/
 
 @media screen and (min-width:1650px) {
